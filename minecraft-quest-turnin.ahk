@@ -5,11 +5,11 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 +q::
 	Loop, 64
 	{
-		MouseClick, left, 45, 178
+		MouseClick, left, 150, 150
 		Sleep 10
-		MouseClick, left, 1585, 133
+		MouseClick, left, 1750, 110
 		Sleep 10
-		MouseClick, left, 1585, 201
+		MouseClick, left, 1750, 160
 		Sleep 10
 	}
 return
