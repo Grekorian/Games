@@ -1,12 +1,15 @@
-Activate with shift + q
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+; Activate with shift + q
 +q::
 	Loop, 64
 	{
-		MouseClick, left, 150, 150
+		MouseClick, left, 45, 178
 		Sleep 10
-		MouseClick, left, 1750, 110
+		MouseClick, left, 1585, 133
 		Sleep 10
-		MouseClick, left, 1750, 160
+		MouseClick, left, 1585, 201
 		Sleep 10
 	}
 return
